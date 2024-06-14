@@ -1,0 +1,130 @@
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+  
+  .message-text {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    color: blueviolet;
+  }
+  
+  .message-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: blueviolet;
+
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    padding-right: 250px;
+  }
+  .send-message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+ .sign-out {
+
+    padding: 10px 15px;
+    color: white;
+    background-color: #b90892e9;
+    margin-left: 100px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+
+.message-input {
+  flex: 1;
+height: 30px; 
+width: 824px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+resize: none;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #a22692;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #a6129c;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+
+.message-container {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+
+.message-container.right {
+  align-self: flex-end;
+
+}
+
+
+.message-container.left {
+  align-self: flex-start;
+
+}
+
+
+.message-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  margin: 0;
+}
+
+
+.message-timestamp {
+  font-size: 12px;
+  color: blueviolet;
+}
+.messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #9f5ad0;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #cc1eb5;
+}
